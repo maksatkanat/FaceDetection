@@ -5,7 +5,7 @@ from PIL import Image
 import sys
 from timeit import default_timer as timer
 from time import gmtime, strftime
-
+import datetime
 
 #cap = cv2.VideoCapture("rtsp://192.168.1.199/Streaming/Channels/101")
 cap = cv2.VideoCapture("http://admin:admin12345@192.168.1.199/Streaming/Channels/2/picture")
